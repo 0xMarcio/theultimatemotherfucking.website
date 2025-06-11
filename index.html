@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Most Fucking Ultimate Website Ever Created By Humanity</title>
+    <meta name="description" content="This website will literally change your fucking life and cure your depression">
+    <meta property="og:title" content="Holy Shit This Website">
+    <meta property="og:description" content="It's so good it makes other websites cry">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖕</text></svg>">
+    <style>
+        :root {
+            --fucking-black: #0a0a0a;
+            --fucking-white: #fafafa;
+            --fucking-gray: #666;
+            --fucking-blue: #0969da;
+            --fucking-purple: #8b5cf6;
+            --fucking-green: #10b981;
+            --fucking-yellow: #fbbf24;
+            --fucking-red: #ef4444;
+            --fucking-pink: #ec4899;
+            --gradient: linear-gradient(135deg, var(--fucking-purple), var(--fucking-pink));
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: var(--fucking-black);
+                --text: var(--fucking-white);
+                --muted: #999;
+                --border: #333;
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg: var(--fucking-white);
+                --text: var(--fucking-black);
+                --muted: var(--fucking-gray);
+                --border: #ddd;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ::selection {
+            background: var(--fucking-pink);
+            color: var(--fucking-white);
+        }
+
+        html {
+            font-size: clamp(16px, 2vw, 20px);
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.666;
+            color: var(--text);
+            background: var(--bg);
+            padding: 2rem;
+            max-width: 69ch;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            line-height: 1.1;
+            margin-bottom: 2rem;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 3rem 0 1rem;
+            color: var(--fucking-purple);
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            color: var(--fucking-pink);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: var(--fucking-blue);
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--fucking-blue);
+        }
+
+        a:visited {
+            color: var(--fucking-purple);
+        }
+
+        .important {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--fucking-pink);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background: var(--gradient);
+            color: white;
+            font-size: 0.75rem;
+            font-weight: bold;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        ul, ol {
+            margin: 0 0 1.5rem 2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        code {
+            font-family: "SF Mono", Monaco, Consolas, monospace;
+            background: var(--border);
+            padding: 0.125rem 0.375rem;
+            border-radius: 0.375rem;
+            font-size: 0.875em;
+        }
+
+        pre {
+            background: var(--border);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        blockquote {
+            border-left: 4px solid var(--gradient);
+            padding-left: 1rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--muted);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+            margin-bottom: 3rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--muted);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature {
+            padding: 1.5rem;
+            border: 2px solid var(--border);
+            border-radius: 1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .feature:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+        }
+
+        .feature h3 {
+            margin-top: 0;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin: 3rem 0;
+            padding: 2rem;
+            background: var(--border);
+            border-radius: 1rem;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 900;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            color: var(--muted);
+        }
+
+        .cta {
+            text-align: center;
+            margin: 4rem 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--gradient);
+            color: white;
+            font-weight: bold;
+            border-radius: 9999px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(139, 92, 246, 0.3);
+            border: none;
+        }
+
+        .testimonials {
+            margin: 3rem 0;
+        }
+
+        .testimonial {
+            background: var(--border);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            color: var(--fucking-purple);
+        }
+
+        .footer {
+            margin-top: 5rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border);
+            text-align: center;
+            color: var(--muted);
+        }
+
+        .emoji {
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        .rainbow {
+            animation: rainbow 3s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            16% { color: orange; }
+            33% { color: yellow; }
+            50% { color: green; }
+            66% { color: blue; }
+            83% { color: indigo; }
+            100% { color: violet; }
+        }
+
+        .shake {
+            animation: shake 0.5s infinite;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        #visitor-counter {
+            font-weight: bold;
+            color: var(--fucking-green);
+        }
+
+        .alert {
+            background: var(--fucking-yellow);
+            color: var(--fucking-black);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+            font-weight: bold;
+        }
+
+        .crossed {
+            text-decoration: line-through;
+            opacity: 0.5;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>The Most Fucking Ultimate Website Ever Created By Humanity</h1>
+        <p>Featuring <span class="badge">AI-FREE</span> <span class="badge">NFT-FREE</span> <span class="badge">BLOCKCHAIN-FREE</span> content</p>
+        <p class="important">Warning: This website contains dangerous levels of common sense</p>
+    </div>
+
+    <div class="alert">
+        ⚠️ BREAKING: You are visitor #<span id="visitor-counter">69,420</span> - You've won absolutely nothing!
+    </div>
+
+    <h2>Holy Shit, Another Motherfucking Website?</h2>
+    
+    <p>Listen up, you <span class="crossed">React developer</span> beautiful human being. You thought <a href="https://thebestmotherfucking.website">thebestmotherfucking.website</a> was the pinnacle of web design? That adorable piece of shit was just the beginning.</p>
+
+    <p>This is <span class="rainbow">THE MOST FUCKING ULTIMATE WEBSITE</span> and it's here to show you what the web could be if developers stopped jerking off to their node_modules folder.</p>
+
+    <h2>Why This Website Will Literally Save The Internet</h2>
+
+    <div class="features">
+        <div class="feature">
+            <h3>🚀 Faster Than Your Ex Moving On</h3>
+            <p>Loads in <strong>0.069 seconds</strong> because we don't load 47 JavaScript frameworks just to display text.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🧠 No AI Bullshit</h3>
+            <p>This content was written by a real human who occasionally makes typos and dgaf. No ChatGPT was harmed in the making of this website.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🌈 Actually Accessible</h3>
+            <p>Screen readers love this shit. Keyboard navigation works. We even have proper color contrast, unlike your "aesthetic" gradient text.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🖕 Zero Tracking</h3>
+            <p>We don't know who you are and we don't fucking care. No cookies, no analytics, no bullshit GDPR popups.</p>
+        </div>
+    </div>
+
+    <h2>The Shocking Statistics</h2>
+
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-number">0</div>
+            <div class="stat-label">npm packages</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">1</div>
+            <div class="stat-label">HTML file</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Performance score</div>
+        </div>
+    </div>
+
+    <h2>Revolutionary Features Nobody Asked For</h2>
+
+    <ul>
+        <li>Works on your grandma's Internet Explorer <span class="crossed">6</span> 11</li>
+        <li>Prints perfectly because some psychopath still prints websites</li>
+        <li>No "Accept Cookies" popup because we're not assholes</li>
+        <li>Zero dependencies (your package-lock.json is crying)</li>
+        <li>Mobile-first, desktop-first, fridge-first, whatever-first</li>
+        <li>SEO optimized by not being a piece of shit</li>
+        <li>WCAG AAA compliant (probably)</li>
+        <li>Carbon neutral (we planted exactly 0 trees)</li>
+    </ul>
+
+    <h2>What People Are Saying</h2>
+
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"I opened this website and my computer actually thanked me."</p>
+            <p class="testimonial-author">- A Real Person, definitely not made up</p>
+        </div>
+        
+        <div class="testimonial">
+            <p>"This website cured my JavaScript fatigue and now I can love again."</p>
+            <p class="testimonial-author">- Reformed React Developer</p>
+        </div>
+
+        <div class="testimonial">
+            <p>"10/10 would visit again. Actually loads on my 2G connection."</p>
+            <p class="testimonial-author">- Time Traveler from 2005</p>
+        </div>
+    </div>
+
+    <h2>The Ultimate Web Development Guide</h2>
+
+    <p>Here's everything you need to know about modern web development:</p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;You're Done&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Seriously, that's it.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <p>But no, you need your fucking <span class="shake">React</span> with <span class="shake">Redux</span> and <span class="shake">Redux-Saga</span> and <span class="shake">Redux-Thunk</span> and seventeen different CSS-in-JS libraries because writing actual CSS is apparently too fucking hard.</p>
+
+    <h2>Things This Website Doesn't Have</h2>
+
+    <ul>
+        <li>❌ A 50MB bundle.js file</li>
+        <li>❌ Cryptocurrency integration</li>
+        <li>❌ "Join our Discord" popup</li>
+        <li>❌ Auto-playing videos</li>
+        <li>❌ Newsletter signup that nobody wants</li>
+        <li>❌ Cookie banner larger than the actual content</li>
+        <li>❌ "Install our app" banner</li>
+        <li>❌ Animated scroll-jacking bullshit</li>
+        <li>❌ Loading spinner for text</li>
+        <li>❌ "AI-powered" anything</li>
+    </ul>
+
+    <h2>The Secret to Our Success</h2>
+
+    <blockquote>
+        "We just wrote HTML and CSS like it's fucking 2010 and everything worked perfectly. Weird, right?"
+    </blockquote>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>Is this website Web3 ready?</h3>
+    <p>Get the fuck out.</p>
+
+    <h3>Can I invest in your token?</h3>
+    <p>Our token is called HTML. It's been around since 1993 and it's still worth exactly the same: everything.</p>
+
+    <h3>Do you have a mobile app?</h3>
+    <p>Yeah, it's called a "web browser" you absolute walnut.</p>
+
+    <h3>What framework did you use?</h3>
+    <p>The most powerful framework of all: <strong>giving a shit about users</strong>.</p>
+
+    <div class="cta">
+        <h2>Ready to Build Something That Doesn't Suck?</h2>
+        <a href="#" class="button" onclick="alert('Sike! There\'s nothing to download. Just view source, you muppet.'); return false;">Download Our Framework</a>
+    </div>
+
+    <footer class="footer">
+        <p>Made with <span class="emoji">🖕</span> and <span class="emoji">❤️</span> by someone who's tired of your bullshit</p>
+        <p>This website is released under the <a href="http://www.wtfpl.net/">WTFPL</a> - Do What the Fuck You Want To Public License</p>
+        <p>Copyleft <span class="blink">🄯</span> 2024 - All wrongs reserved</p>
+        <p class="no-print">Best viewed in literally any browser because we're not incompetent</p>
+    </footer>
+
+    <script>
+        setInterval(() => {
+            const counter = document.getElementById('visitor-counter');
+            const current = parseInt(counter.textContent.replace(/,/g, ''));
+            counter.textContent = (current + Math.floor(Math.random() * 10)).toLocaleString();
+        }, 3000);
+        
+        console.log('%c STOP!', 'color: red; font-size: 50px; font-weight: bold;');
+        console.log('%c Just kidding. There\'s literally nothing here. It\'s just HTML and CSS you nerd.', 'font-size: 16px;');
+    </script>
+</body>
+</html>
